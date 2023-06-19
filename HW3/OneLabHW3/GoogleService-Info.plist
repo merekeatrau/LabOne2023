@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>736274689794-euqt40blu0ntjfl4iqpar990r68dg70d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.736274689794-euqt40blu0ntjfl4iqpar990r68dg70d</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC3DN6VscBgkmP8FKTVDOiQTrVLurg2T7M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>736274689794</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>OneLab.OneLabHW3</string>
+	<key>PROJECT_ID</key>
+	<string>notesapp-d6b3a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>notesapp-d6b3a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:736274689794:ios:99897418133a8073969c1b</string>
+	<key>DATABASE_URL</key>
+	<string>https://notesapp-d6b3a-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>

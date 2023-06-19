@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060DC71529DC833F00AC1003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060DC71429DC833F00AC1003 /* AppDelegate.swift */; };
+		060DC71729DC833F00AC1003 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060DC71629DC833F00AC1003 /* SceneDelegate.swift */; };
+		060DC71929DC833F00AC1003 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060DC71829DC833F00AC1003 /* ViewController.swift */; };
+		060DC71E29DC834100AC1003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060DC71D29DC834100AC1003 /* Assets.xcassets */; };
+		060DC72129DC834100AC1003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060DC71F29DC834100AC1003 /* LaunchScreen.storyboard */; };
+		060DC72A29DC845E00AC1003 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 060DC72929DC845E00AC1003 /* FirebaseStorage */; };
+		060DC72D29DC84BF00AC1003 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 060DC72C29DC84BF00AC1003 /* Alamofire */; };
+		060DC73029DC857800AC1003 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 060DC72F29DC857800AC1003 /* SnapKit */; };
+		060DC73429DC8AD000AC1003 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060DC73329DC8AD000AC1003 /* DetailsViewController.swift */; };
+		060DC73629DC8AEE00AC1003 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060DC73529DC8AEE00AC1003 /* Note.swift */; };
+		060DC73B29DC8D7800AC1003 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060DC73A29DC8D7800AC1003 /* NetworkManager.swift */; };
+		060DC74129DC8E2E00AC1003 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 060DC74029DC8E2E00AC1003 /* GoogleService-Info.plist */; };
+		063AE01729DD3FDE0071BEE0 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 063AE01629DD3FDE0071BEE0 /* FirebaseDatabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		060DC71129DC833F00AC1003 /* OneLabHW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneLabHW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		060DC71429DC833F00AC1003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		060DC71629DC833F00AC1003 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		060DC71829DC833F00AC1003 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		060DC71D29DC834100AC1003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		060DC72029DC834100AC1003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		060DC72229DC834100AC1003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060DC73329DC8AD000AC1003 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		060DC73529DC8AEE00AC1003 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		060DC73A29DC8D7800AC1003 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		060DC74029DC8E2E00AC1003 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "OneLabHW3/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		060DC70E29DC833F00AC1003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060DC73029DC857800AC1003 /* SnapKit in Frameworks */,
+				060DC72A29DC845E00AC1003 /* FirebaseStorage in Frameworks */,
+				063AE01729DD3FDE0071BEE0 /* FirebaseDatabase in Frameworks */,
+				060DC72D29DC84BF00AC1003 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060DC70829DC833F00AC1003 = {
+			isa = PBXGroup;
+			children = (
+				060DC71329DC833F00AC1003 /* OneLabHW3 */,
+				060DC71229DC833F00AC1003 /* Products */,
+				063AE01529DD3FDE0071BEE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		060DC71229DC833F00AC1003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				060DC71129DC833F00AC1003 /* OneLabHW3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		060DC71329DC833F00AC1003 /* OneLabHW3 */ = {
+			isa = PBXGroup;
+			children = (
+				060DC73129DC862000AC1003 /* Application */,
+				060DC73829DC8D1200AC1003 /* Home */,
+				060DC73929DC8D2700AC1003 /* Details */,
+				060DC73729DC8D0A00AC1003 /* Model */,
+				060DC73229DC862B00AC1003 /* SupportingFiles */,
+			);
+			path = OneLabHW3;
+			sourceTree = "<group>";
+		};
+		060DC73129DC862000AC1003 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				060DC71429DC833F00AC1003 /* AppDelegate.swift */,
+				060DC71629DC833F00AC1003 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		060DC73229DC862B00AC1003 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				060DC74029DC8E2E00AC1003 /* GoogleService-Info.plist */,
+				060DC71D29DC834100AC1003 /* Assets.xcassets */,
+				060DC71F29DC834100AC1003 /* LaunchScreen.storyboard */,
+				060DC72229DC834100AC1003 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		060DC73729DC8D0A00AC1003 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				060DC73A29DC8D7800AC1003 /* NetworkManager.swift */,
+				060DC73529DC8AEE00AC1003 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		060DC73829DC8D1200AC1003 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				060DC71829DC833F00AC1003 /* ViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		060DC73929DC8D2700AC1003 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				060DC73329DC8AD000AC1003 /* DetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		063AE01529DD3FDE0071BEE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		060DC71029DC833F00AC1003 /* OneLabHW3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060DC72529DC834100AC1003 /* Build configuration list for PBXNativeTarget "OneLabHW3" */;
+			buildPhases = (
+				060DC70D29DC833F00AC1003 /* Sources */,
+				060DC70E29DC833F00AC1003 /* Frameworks */,
+				060DC70F29DC833F00AC1003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneLabHW3;
+			packageProductDependencies = (
+				060DC72929DC845E00AC1003 /* FirebaseStorage */,
+				060DC72C29DC84BF00AC1003 /* Alamofire */,
+				060DC72F29DC857800AC1003 /* SnapKit */,
+				063AE01629DD3FDE0071BEE0 /* FirebaseDatabase */,
+			);
+			productName = OneLabHW3;
+			productReference = 060DC71129DC833F00AC1003 /* OneLabHW3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		060DC70929DC833F00AC1003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					060DC71029DC833F00AC1003 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 060DC70C29DC833F00AC1003 /* Build configuration list for PBXProject "OneLabHW3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 060DC70829DC833F00AC1003;
+			packageReferences = (
+				060DC72829DC845E00AC1003 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				060DC72B29DC84BF00AC1003 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				060DC72E29DC857800AC1003 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 060DC71229DC833F00AC1003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				060DC71029DC833F00AC1003 /* OneLabHW3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		060DC70F29DC833F00AC1003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060DC72129DC834100AC1003 /* LaunchScreen.storyboard in Resources */,
+				060DC71E29DC834100AC1003 /* Assets.xcassets in Resources */,
+				060DC74129DC8E2E00AC1003 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		060DC70D29DC833F00AC1003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060DC73B29DC8D7800AC1003 /* NetworkManager.swift in Sources */,
+				060DC73629DC8AEE00AC1003 /* Note.swift in Sources */,
+				060DC71929DC833F00AC1003 /* ViewController.swift in Sources */,
+				060DC71529DC833F00AC1003 /* AppDelegate.swift in Sources */,
+				060DC71729DC833F00AC1003 /* SceneDelegate.swift in Sources */,
+				060DC73429DC8AD000AC1003 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		060DC71F29DC834100AC1003 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				060DC72029DC834100AC1003 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		060DC72329DC834100AC1003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		060DC72429DC834100AC1003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		060DC72629DC834100AC1003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD2C9D7H2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneLabHW3/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OneLab.OneLabHW3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		060DC72729DC834100AC1003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD2C9D7H2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneLabHW3/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OneLab.OneLabHW3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		060DC70C29DC833F00AC1003 /* Build configuration list for PBXProject "OneLabHW3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060DC72329DC834100AC1003 /* Debug */,
+				060DC72429DC834100AC1003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060DC72529DC834100AC1003 /* Build configuration list for PBXNativeTarget "OneLabHW3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060DC72629DC834100AC1003 /* Debug */,
+				060DC72729DC834100AC1003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		060DC72829DC845E00AC1003 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 9.6.0;
+			};
+		};
+		060DC72B29DC84BF00AC1003 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.6.4;
+			};
+		};
+		060DC72E29DC857800AC1003 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		060DC72929DC845E00AC1003 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 060DC72829DC845E00AC1003 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		060DC72C29DC84BF00AC1003 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 060DC72B29DC84BF00AC1003 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		060DC72F29DC857800AC1003 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 060DC72E29DC857800AC1003 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		063AE01629DD3FDE0071BEE0 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 060DC72829DC845E00AC1003 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 060DC70929DC833F00AC1003 /* Project object */;
+}

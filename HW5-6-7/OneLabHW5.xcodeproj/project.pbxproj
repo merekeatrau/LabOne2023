@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0603D1CB29EF0D7500265099 /* OneLabHW5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603D1CA29EF0D7500265099 /* OneLabHW5Tests.swift */; };
+		06B1720629EABFAA00924205 /* BookBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1720529EABFAA00924205 /* BookBuilder.swift */; };
+		06B1720929EAD87E00924205 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1720829EAD87E00924205 /* DetailsViewController.swift */; };
+		06B1720C29EAEC2A00924205 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1720B29EAEC2A00924205 /* CoreDataManager.swift */; };
+		06B1720F29EB381700924205 /* BooksTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1720E29EB381700924205 /* BooksTableHeaderView.swift */; };
+		06CBE5CD29E81FA800690CCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CBE5CC29E81FA800690CCD /* AppDelegate.swift */; };
+		06CBE5CF29E81FA800690CCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CBE5CE29E81FA800690CCD /* SceneDelegate.swift */; };
+		06CBE5D129E81FA800690CCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CBE5D029E81FA800690CCD /* ViewController.swift */; };
+		06CBE5D729E81FA800690CCD /* OneLabHW5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06CBE5D529E81FA800690CCD /* OneLabHW5.xcdatamodeld */; };
+		06CBE5D929E81FAB00690CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06CBE5D829E81FAB00690CCD /* Assets.xcassets */; };
+		06CBE5DC29E81FAB00690CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CBE5DA29E81FAB00690CCD /* LaunchScreen.storyboard */; };
+		06CBE5E829E8253D00690CCD /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CBE5E729E8253D00690CCD /* BookTableViewCell.swift */; };
+		06CBE5EB29E8257C00690CCD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 06CBE5EA29E8257C00690CCD /* SnapKit */; };
+		06CBE5ED29E825A200690CCD /* BooksTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CBE5EC29E825A200690CCD /* BooksTableView.swift */; };
+		06CCAD9929EC046E0065FA27 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CCAD9829EC046E0065FA27 /* KeychainHelper.swift */; };
+		06E661B329E9406C008FE4BE /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E661B229E9406C008FE4BE /* AddViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0603D1CC29EF0D7500265099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06CBE5C129E81FA800690CCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06CBE5C829E81FA800690CCD;
+			remoteInfo = OneLabHW5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0603D1C829EF0D7500265099 /* OneLabHW5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneLabHW5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0603D1CA29EF0D7500265099 /* OneLabHW5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLabHW5Tests.swift; sourceTree = "<group>"; };
+		06B1720529EABFAA00924205 /* BookBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookBuilder.swift; sourceTree = "<group>"; };
+		06B1720829EAD87E00924205 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		06B1720B29EAEC2A00924205 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		06B1720E29EB381700924205 /* BooksTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableHeaderView.swift; sourceTree = "<group>"; };
+		06CBE5C929E81FA800690CCD /* OneLabHW5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneLabHW5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CBE5CC29E81FA800690CCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06CBE5CE29E81FA800690CCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		06CBE5D029E81FA800690CCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06CBE5D629E81FA800690CCD /* OneLabHW5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneLabHW5.xcdatamodel; sourceTree = "<group>"; };
+		06CBE5D829E81FAB00690CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06CBE5DB29E81FAB00690CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06CBE5DD29E81FAB00690CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CBE5E729E8253D00690CCD /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		06CBE5EC29E825A200690CCD /* BooksTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableView.swift; sourceTree = "<group>"; };
+		06CCAD9829EC046E0065FA27 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		06E661B229E9406C008FE4BE /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0603D1C529EF0D7500265099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CBE5C629E81FA800690CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CBE5EB29E8257C00690CCD /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0603D1C929EF0D7500265099 /* OneLabHW5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0603D1CA29EF0D7500265099 /* OneLabHW5Tests.swift */,
+			);
+			path = OneLabHW5Tests;
+			sourceTree = "<group>";
+		};
+		06B1720429EABA3B00924205 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				06E661B229E9406C008FE4BE /* AddViewController.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		06B1720729EAC98700924205 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				06B1720529EABFAA00924205 /* BookBuilder.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		06B1720A29EAEC1300924205 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				06B1720829EAD87E00924205 /* DetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		06B1720D29EAEC3D00924205 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				06B1720B29EAEC2A00924205 /* CoreDataManager.swift */,
+				06CCAD9829EC046E0065FA27 /* KeychainHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		06CBE5C029E81FA800690CCD = {
+			isa = PBXGroup;
+			children = (
+				06CBE5CB29E81FA800690CCD /* OneLabHW5 */,
+				0603D1C929EF0D7500265099 /* OneLabHW5Tests */,
+				06CBE5CA29E81FA800690CCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06CBE5CA29E81FA800690CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06CBE5C929E81FA800690CCD /* OneLabHW5.app */,
+				0603D1C829EF0D7500265099 /* OneLabHW5Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06CBE5CB29E81FA800690CCD /* OneLabHW5 */ = {
+			isa = PBXGroup;
+			children = (
+				06CBE5E329E820BF00690CCD /* Application */,
+				06B1720729EAC98700924205 /* Entity */,
+				06CBE5F029E826FC00690CCD /* Home */,
+				06B1720429EABA3B00924205 /* Add */,
+				06B1720A29EAEC1300924205 /* Details */,
+				06B1720D29EAEC3D00924205 /* Services */,
+				06CBE5E429E820CD00690CCD /* SupportingFiles */,
+				06CBE5D529E81FA800690CCD /* OneLabHW5.xcdatamodeld */,
+			);
+			path = OneLabHW5;
+			sourceTree = "<group>";
+		};
+		06CBE5E329E820BF00690CCD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				06CBE5CC29E81FA800690CCD /* AppDelegate.swift */,
+				06CBE5CE29E81FA800690CCD /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		06CBE5E429E820CD00690CCD /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				06CBE5D829E81FAB00690CCD /* Assets.xcassets */,
+				06CBE5DA29E81FAB00690CCD /* LaunchScreen.storyboard */,
+				06CBE5DD29E81FAB00690CCD /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		06CBE5EE29E826E500690CCD /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				06CBE5EC29E825A200690CCD /* BooksTableView.swift */,
+				06CBE5E729E8253D00690CCD /* BookTableViewCell.swift */,
+				06B1720E29EB381700924205 /* BooksTableHeaderView.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		06CBE5F029E826FC00690CCD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				06CBE5D029E81FA800690CCD /* ViewController.swift */,
+				06CBE5EE29E826E500690CCD /* TableView */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0603D1C729EF0D7500265099 /* OneLabHW5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0603D1CE29EF0D7500265099 /* Build configuration list for PBXNativeTarget "OneLabHW5Tests" */;
+			buildPhases = (
+				0603D1C429EF0D7500265099 /* Sources */,
+				0603D1C529EF0D7500265099 /* Frameworks */,
+				0603D1C629EF0D7500265099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0603D1CD29EF0D7500265099 /* PBXTargetDependency */,
+			);
+			name = OneLabHW5Tests;
+			productName = OneLabHW5Tests;
+			productReference = 0603D1C829EF0D7500265099 /* OneLabHW5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06CBE5C829E81FA800690CCD /* OneLabHW5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CBE5E029E81FAB00690CCD /* Build configuration list for PBXNativeTarget "OneLabHW5" */;
+			buildPhases = (
+				06CBE5C529E81FA800690CCD /* Sources */,
+				06CBE5C629E81FA800690CCD /* Frameworks */,
+				06CBE5C729E81FA800690CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneLabHW5;
+			packageProductDependencies = (
+				06CBE5EA29E8257C00690CCD /* SnapKit */,
+			);
+			productName = OneLabHW5;
+			productReference = 06CBE5C929E81FA800690CCD /* OneLabHW5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06CBE5C129E81FA800690CCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0603D1C729EF0D7500265099 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 06CBE5C829E81FA800690CCD;
+					};
+					06CBE5C829E81FA800690CCD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 06CBE5C429E81FA800690CCD /* Build configuration list for PBXProject "OneLabHW5" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06CBE5C029E81FA800690CCD;
+			packageReferences = (
+				06CBE5E929E8257C00690CCD /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 06CBE5CA29E81FA800690CCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06CBE5C829E81FA800690CCD /* OneLabHW5 */,
+				0603D1C729EF0D7500265099 /* OneLabHW5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0603D1C629EF0D7500265099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CBE5C729E81FA800690CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CBE5DC29E81FAB00690CCD /* LaunchScreen.storyboard in Resources */,
+				06CBE5D929E81FAB00690CCD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0603D1C429EF0D7500265099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0603D1CB29EF0D7500265099 /* OneLabHW5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CBE5C529E81FA800690CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CBE5D129E81FA800690CCD /* ViewController.swift in Sources */,
+				06E661B329E9406C008FE4BE /* AddViewController.swift in Sources */,
+				06CBE5CD29E81FA800690CCD /* AppDelegate.swift in Sources */,
+				06B1720F29EB381700924205 /* BooksTableHeaderView.swift in Sources */,
+				06CBE5CF29E81FA800690CCD /* SceneDelegate.swift in Sources */,
+				06B1720629EABFAA00924205 /* BookBuilder.swift in Sources */,
+				06CBE5E829E8253D00690CCD /* BookTableViewCell.swift in Sources */,
+				06CCAD9929EC046E0065FA27 /* KeychainHelper.swift in Sources */,
+				06CBE5ED29E825A200690CCD /* BooksTableView.swift in Sources */,
+				06CBE5D729E81FA800690CCD /* OneLabHW5.xcdatamodeld in Sources */,
+				06B1720929EAD87E00924205 /* DetailsViewController.swift in Sources */,
+				06B1720C29EAEC2A00924205 /* CoreDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0603D1CD29EF0D7500265099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06CBE5C829E81FA800690CCD /* OneLabHW5 */;
+			targetProxy = 0603D1CC29EF0D7500265099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06CBE5DA29E81FAB00690CCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CBE5DB29E81FAB00690CCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0603D1CF29EF0D7500265099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD2C9D7H2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OneLab.OneLabHW5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneLabHW5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OneLabHW5";
+			};
+			name = Debug;
+		};
+		0603D1D029EF0D7500265099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD2C9D7H2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OneLab.OneLabHW5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneLabHW5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OneLabHW5";
+			};
+			name = Release;
+		};
+		06CBE5DE29E81FAB00690CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06CBE5DF29E81FAB00690CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06CBE5E129E81FAB00690CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD2C9D7H2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneLabHW5/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OneLab.OneLabHW5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06CBE5E229E81FAB00690CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD2C9D7H2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneLabHW5/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OneLab.OneLabHW5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0603D1CE29EF0D7500265099 /* Build configuration list for PBXNativeTarget "OneLabHW5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0603D1CF29EF0D7500265099 /* Debug */,
+				0603D1D029EF0D7500265099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06CBE5C429E81FA800690CCD /* Build configuration list for PBXProject "OneLabHW5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CBE5DE29E81FAB00690CCD /* Debug */,
+				06CBE5DF29E81FAB00690CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06CBE5E029E81FAB00690CCD /* Build configuration list for PBXNativeTarget "OneLabHW5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CBE5E129E81FAB00690CCD /* Debug */,
+				06CBE5E229E81FAB00690CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		06CBE5E929E8257C00690CCD /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06CBE5EA29E8257C00690CCD /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06CBE5E929E8257C00690CCD /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		06CBE5D529E81FA800690CCD /* OneLabHW5.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				06CBE5D629E81FA800690CCD /* OneLabHW5.xcdatamodel */,
+			);
+			currentVersion = 06CBE5D629E81FA800690CCD /* OneLabHW5.xcdatamodel */;
+			path = OneLabHW5.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 06CBE5C129E81FA800690CCD /* Project object */;
+}

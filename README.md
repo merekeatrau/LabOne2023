@@ -28,6 +28,6 @@ Built Settings ios App with MVC, MVVM, MVP, VIP
 
 Developed an iOS app designed to help users manage and organize their book collection
 
-![Image preview](preview4.png)
+![Image preview](preview5.png)
 
 
